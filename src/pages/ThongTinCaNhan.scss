@@ -1,0 +1,33 @@
+.banner-thongtincanhan {
+    background: linear-gradient(180deg, #E0ECFF 25.5%, #FFF 100%);
+}
+
+.form-thongtincanhan {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(20, 20, 21, 0.14);
+    padding: 20px;
+    width: 390px;
+    .ant-form-item-required {
+        font-size: 16px;
+        font-weight: 600;
+        color: #767A7F !important;
+    }
+    .ant-select-selector, .ant-form-item-control-input-content {
+        height: 48px !important;
+        line-height: 48px;
+    }
+    .ant-select-arrow {
+        top: 75%;
+    }
+    .ant-input {
+        height: 48px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-thongtincanhan {
+      width: 100%;
+    }
+  }

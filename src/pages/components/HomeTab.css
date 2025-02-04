@@ -1,0 +1,555 @@
+.tree-item {
+  position: relative;
+  background-color: #fff;
+}
+.custom-collapse .ant-collapse {
+    background: none;
+    border: none;
+  }
+  
+  .custom-collapse .ant-collapse-item {
+    border: none;
+  }
+  
+  .custom-collapse .ant-collapse-header {
+    background: none;
+    border: none;
+  }
+  
+  .custom-collapse .ant-collapse-content {
+    border: none;
+    background: none;
+  }
+
+  .custom-collapse .ant-collapse-arrow {
+    transform: rotate(-90deg); 
+    transition: transform 0.3s;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 2px;
+    margin-top: 12px;
+  }
+  
+  .custom-collapse .ant-collapse-item-active .ant-collapse-arrow {
+    transform: rotate(0deg);
+  }
+
+  .custom-collapse .ant-collapse-header {
+    font-weight: 600; 
+    font-size: 20px;
+    color: #141415;
+  }
+  .line-data3-1 {
+    position: absolute;
+    top: -65px;
+    width: 5px;
+    height: 65px;
+    /* border-radius: 8px; */
+    background-color: rgba(179, 179, 179, 1);
+  }
+  .line-data3-4 {
+    position: absolute;
+    top: -65px;
+    width: 5px;
+    height: 36px;
+    /* border-radius: 8px; */
+    background-color: rgba(179, 179, 179, 1);
+  }
+  .line-data3-2 {
+    background-color: rgba(179, 179, 179, 1);
+    height: 5px;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    top: -30px;
+    z-index: 10;
+  }
+
+  .line-data3-children-2 {
+    width: 69px;
+    height: 76px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    top: -31px;
+    left: 32%;
+    transform: rotate(40deg);
+  }
+  
+  .tree-children-data3:first-child .line-data3-children-2  {
+    width: 69px;
+    height: 76px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    top: -31px;
+    left: 45%;
+    transform: rotate(-40deg);
+    
+  }
+
+  .tree-children-data3:nth-child(2) .line-data3-children-2  {
+    width: 69px;
+    height: 76px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    top: -31px;
+    left: 47%;
+    transform: rotate(-40deg);
+    
+  }
+
+  .tree-children-data2:first-child .line-data2-children-2 {
+    width: 88px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -40px;
+    left: 47%;
+    transform: rotate(-140deg);
+  }
+
+  .tree-children-data2 .line-data2-children-2 {
+    width: 88px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -40px;
+    left: 27%;
+    transform: rotate(140deg);
+  }
+
+  .line-data2-2 {
+    position: absolute;
+    top: -30px;
+    display: flex;
+    gap: 51px;
+  }
+  .line-data2-2 .line-data2-left {
+    background-color: rgba(179, 179, 179, 1);
+    height: 5px;
+    /* border-radius: 8px; */
+    width: 155px;
+    margin: auto;
+    position: relative;
+  }
+  .line-data2-2 .line-data2-right {
+    background-color: rgba(179, 179, 179, 1);
+    height: 5px;
+    /* border-radius: 8px; */
+    width: 155px;
+    margin: auto;
+    position: relative;
+  }
+  .line-data2-2 .line-data2-left::after {
+    content: "";
+    width: 70px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -5px;
+    right: -20px;
+    transform: rotate(125deg);
+  }
+  
+  .line-data2-2 .line-data2-left::before {
+    content: "";
+    width: 63px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -73px;
+    left: -22px;
+    transform: rotate(-40deg);
+  }
+  .line-data2-2 .line-data2-right::after {
+    content: "";
+    width: 70px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -5px;
+    left: -20px;
+    transform: rotate(-125deg);
+  }
+  
+  .line-data2-2 .line-data2-right::before {
+    content: "";
+    width: 63px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -73px;
+    right: -22px;
+    transform: rotate(40deg);
+  }
+
+  .line-data2-1 {
+    position: absolute;
+    top: -65px;
+    width: 5px;
+    height: 65px;
+    /* border-radius: 8px; */
+    background-color: rgba(179, 179, 179, 1);
+  }
+
+  .line-data3-3 {
+    position: absolute;
+    top: -30px;
+    display: flex;
+    gap: 51px;
+  }
+  .line-data3-3 .line-data2-left {
+    background-color: rgba(179, 179, 179, 1);
+    height: 5px;
+    /* border-radius: 8px; */
+    width: 105px;
+    margin: auto;
+    position: relative;
+  }
+  .line-data3-3 .line-data2-right {
+    background-color: rgba(179, 179, 179, 1);
+    height: 5px;
+    /* border-radius: 8px; */
+    width: 105px;
+    margin: auto;
+    position: relative;
+  }
+  .line-data3-3 .line-data2-left::after {
+    content: "";
+    width: 70px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -5px;
+    right: -20px;
+    transform: rotate(125deg);
+  }
+  
+  .line-data3-3 .line-data2-left::before {
+    content: "";
+    width: 69px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -73px;
+    left: -22px;
+    transform: rotate(-40deg);
+  }
+  .line-data3-3 .line-data2-right::after {
+    content: "";
+    width: 70px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -5px;
+    left: -20px;
+    transform: rotate(-125deg);
+  }
+  
+  .line-data3-3 .line-data2-right::before {
+    content: "";
+    width: 69px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -73px;
+    right: -22px;
+    transform: rotate(40deg);
+  }
+
+  .tree {
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+    overflow-x: auto; /* Cho phép cuộn ngang */
+    overflow-y: hidden; /* Loại bỏ cuộn dọc nếu không cần thiết */
+    white-space: nowrap; /* Bắt buộc nội dung hiển thị trên một dòng ngang */
+}
+
+.tree-container {
+    display: inline-block; /* Đảm bảo nội dung trong tree-container không bị thu gọn */
+    width: max-content; /* Đảm bảo container có thể mở rộng dựa trên nội dung */
+}
+
+  /* line-data2-3 */
+  .line-data2-3 {
+    position: absolute;
+    top: -30px;
+    display: flex;
+    gap: 51px;
+  }
+  .line-data2-3 .line-data2-right, .line-data2-3 .line-data2-left {
+    background-color: rgba(179, 179, 179, 1);
+    height: 5px;
+    /* border-radius: 8px; */
+    width: 355px;
+    margin: auto;
+    position: relative;
+  }
+  .line-data-after-left, .line-data-after-right {
+    position: relative;
+  }
+  .line-data-after-left::after {
+    content: "";
+    width: 70px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -5px;
+    right: -20px;
+    transform: rotate(125deg);
+  }
+  
+  .line-data-after-left::before {
+    content: "";
+    width: 63px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -73px;
+    left: -22px;
+    transform: rotate(-40deg);
+  }
+  .line-data-after-center {
+    position: absolute;
+    top: -36px;
+    height: 66px;
+    left: 49.7%;
+    width: 5px;
+    background-color: #aaa;
+  }
+  .line-data-after-right::after {
+    content: "";
+    width: 70px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -5px;
+    left: -20px;
+    transform: rotate(-125deg);
+  }
+  
+  .line-data-after-right::before {
+    content: "";
+    width: 63px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px; /* Border-radius cho góc phải trên */
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    bottom: -73px;
+    right: -22px;
+    transform: rotate(40deg);
+  }
+
+  /* line-data2-3 */
+  .line-data2-4 {
+    position: absolute;
+    top: -30px;
+    display: flex;
+    gap: 51px;
+  }
+  .line-data2-4 .line-data2-right, .line-data2-4 .line-data2-left {
+    background-color: rgba(179, 179, 179, 1);
+    height: 5px;
+    /* border-radius: 8px; */
+    width: 380px;
+    margin: auto;
+    position: relative;
+  }
+  .line-data-after-children-left, .line-data-after-children-right {
+    position: relative;
+  }
+  .line-data2-4 .line-data-after-children-left {
+    width: 63px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    top: -2px;
+    left: 31%;
+    transform: rotate(-40deg);
+  }
+  .line-data2-4 .line-data-after-children-right {
+    width: 63px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    top: -2px;
+    right: 31%;
+    transform: rotate(40deg);
+  }
+  
+  /*  */
+  .line-data2-children-3 {
+    width: 63px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    top: -32px;
+    left: 11%;
+    transform: rotate(40deg);
+  }
+  
+  .tree-children-data2:first-child .line-data2-children-3  {
+    width: 63px;
+    height: 80px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    top: -32px;
+    left: 52%;
+    transform: rotate(-40deg); 
+  }
+
+  .line-data3-2-top-center {
+    width: 88px;
+    height: 90px;
+    border: 5px solid transparent;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 150px;
+    border-top: 5px solid #aaa;
+    position: absolute;
+    top: -115px;
+    left: 43%;
+    transform: rotate(140deg);
+  }
+
+
+  .tree-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  @media (min-width: 1500px) {
+    .tree {
+      max-width: 1400px;
+    }
+  }
+  @media (max-width: 768px) {
+    .tree-wrapper {
+      max-width: 600px; /* Hoặc kích thước mobile bạn muốn */
+      margin: auto; /* Căn giữa */
+      overflow-x: hidden; /* Ẩn phần tràn bên ngang */
+    }
+    .ant-collapse-content-box {
+      padding: 0 !important;
+    }
+  }
+  @media (max-width: 600px) {
+    .tree-wrapper {
+      max-width: 500px; /* Hoặc kích thước mobile bạn muốn */
+      margin: auto; /* Căn giữa */
+      overflow-x: hidden; /* Ẩn phần tràn bên ngang */
+    }
+  }
+  @media (max-width: 500px) {
+    .tree-wrapper {
+      max-width: 355px; /* Hoặc kích thước mobile bạn muốn */
+      margin: auto; /* Căn giữa */
+      overflow-x: hidden; /* Ẩn phần tràn bên ngang */
+    }
+  }

@@ -1,0 +1,37 @@
+.ant-modal-confirm-title {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    color: #171717 !important;
+}
+
+.ant-modal-confirm-content {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    color: #181818 !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ant-modal-confirm-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .ant-btn-color-default {
+        height: 48px;
+        border: 1.5px solid #0056D2;
+        border-radius: 12px;
+        padding: 14px 16px;
+        font-size: 17px;
+        font-weight: 600;
+        color: #0056D2;
+    }
+    .ant-btn-color-primary {
+        height: 48px;
+        background-color: #0056D2;
+        border: 1.5px solid #0056D2;
+        border-radius: 12px;
+        padding: 14px 16px;
+        font-size: 17px;
+        font-weight: 600;
+        color: #fff;
+    }
+}

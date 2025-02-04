@@ -1,0 +1,41 @@
+.banner-thele {
+  background: linear-gradient(180deg, #e0ecff 25.5%, #fff 100%);
+  width: 100%;
+  position: relative;
+  min-height: 277px;
+  .banner-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner-left {
+    width: 502px;
+    display: flex;
+    align-items: center;
+    padding: 54px 0;
+  }
+}
+.custom-tabs-TheLe .ant-tabs-tab {
+  width: unset;
+}
+.custom-tabs-TheLe
+  .ant-tabs
+  .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  color: #0056d2 !important;
+  //   font-weight: 600;
+  font-size: 17px;
+  line-height: 19.92px;
+}
+.custom-tabs-TheLe .ant-tabs .ant-tabs-tab-btn {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 19.92px;
+  color: #484848;
+}
+.shadow-custom {
+  box-shadow: 0px 0px 10px 0px #00000026;
+}
+.custom-tabs-TheLe .ant-tabs-top > .ant-tabs-nav::before {
+  border-bottom: unset !important;
+}
