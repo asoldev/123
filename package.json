@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --mode development",
     "build:test": "tsc -b && vite build --mode staging",
-    "build:production": "tsc -b && vite build",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "dev:css": "NODE_ENV=development postcss tailwind.css -o ./src/tailwind.css -w"
