@@ -7,7 +7,6 @@ import { getExam } from "../api/exam";
 import { formatDateNotTime } from "@/utils/common";
 
 const CuocThi = () => {
-  return <p>ABC</p>
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState({ before: [], within: [], after: [] });
